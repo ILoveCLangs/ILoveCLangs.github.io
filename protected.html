@@ -102,7 +102,7 @@
         let sortedData = [];
         let sortOrder = 'earliest'; // Default sort order
 
-        fetch('Storage.json')
+        fetch('storage.json')
             .then(response => response.json())
             .then(data => {
                 originalData = data;
